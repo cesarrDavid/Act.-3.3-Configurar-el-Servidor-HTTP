@@ -1,0 +1,159 @@
+/* Estilos del banner */
+
+.banner {
+    background-color: #11346c;
+    height: 150px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0 30px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
+  }
+  
+  .logo {
+    height: 150px;
+
+  }
+  
+  h1 {
+    color: #fff;
+    font-size: 24px;
+    margin: 0;
+  }
+  
+/* Estilos del navegador */
+
+  nav {
+    background-color: #d8b70e;
+    height: 50px;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+  }
+  
+  nav li {
+    position: relative;
+  }
+  
+  nav a {
+    display: block;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 0 20px;
+    height: 100%;
+    line-height: 50px;
+  }
+  
+  nav .dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #d8b70e;
+    display: none;
+    padding: 10px 0;
+  }
+  
+  nav .dropdown:hover .dropdown-menu {
+    display: block;
+  }
+  
+  nav .dropdown-menu li {
+    width: 100%;
+  }
+  
+  nav .dropdown-menu a {
+    padding: 10px 20px;
+  }
+  
+  nav .dropdown-menu a:hover {
+    background-color: #d8b70e;
+  }
+  
+  nav .dropdown-menu a:active,
+  nav .dropdown-menu a:focus {
+    background-color: #d8b70e;
+    outline: none;
+  }
+  
+  nav .dropdown:hover > a {
+    background-color: #11346c;
+  }
+  
+  nav .dropdown > a {
+    position: relative;
+  }
+  
+  nav .dropdown > a:after {
+    content: "\25BE";
+    font-size: 16px;
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+  }
+  
+  nav .dropdown > a:hover:after {
+    color: #fbfbfb;
+  }
+  
+/* fondo de la biblioteca */
+
+  .imagen-fondo {
+    background-image: url('fondo.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh; /* Ajustar a la altura deseada */
+  }
+  
+
+/* imagen centrada de empresas */
+
+  .imagen-centrada {
+    background-color: #fff; /* Agregamos un fondo blanco para que se vea mejor la imagen */
+    height: 100vh; /* Ajustar a la altura deseada */
+  }
+  
+  .contenedor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  
+  .contenedor img {
+    max-width: 100%;
+    max-height: 100%;
+  }
+
+/* footer */
+
+.footer {
+  background-color: #051c40;
+  color: #fff;
+  padding: 5px 0;
+}
+
+.contenedor {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo img {
+  max-width: 100%;
+  max-height: 100px;
+}
+
+.linea-amarilla {
+  height: 15px;
+  background-color: #d8b70e;
+}
